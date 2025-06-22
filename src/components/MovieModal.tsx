@@ -135,10 +135,9 @@ export const MovieModal: React.FC<MovieModalProps> = ({
                       ? 'text-green-500' 
                       : 'text-white hover:text-green-500'
                   }`}
-                  disabled={isLiked}
                 >
                   <ThumbsUp size={20} />
-                  <span className="text-sm">{isLiked ? 'Liked' : 'Like'}</span>
+                  <span className="text-sm">{isLiked ? 'Unlike' : 'Like'}</span>
                 </button>
               </div>
             </div>
