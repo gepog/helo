@@ -141,9 +141,31 @@ function App() {
     };
   });
 
+  // Also include custom movies from content rows that are in myList
+  const customMoviesInMyList: Movie[] = [];
+  updatedContentRows.forEach(row => {
+    row.movies.forEach(movie => {
+      if (myList.includes(movie.id) && !movies.find(m => m.id === movie.id)) {
+        customMoviesInMyList.push(movie);
+      }
+    });
+  });
+  
+  const allMyListMovies = [...myListMovies, ...customMoviesInMyList];
   const myListMovies = movies.filter(movie => myList.includes(movie.id));
-  const finalContentRows = myListMovies.length > 0 
-    ? [{ id: 'mylist', title: 'My List', movies: myListMovies }, ...updatedContentRows]
+  
+  // Also include custom movies from content rows that are in myList
+  const customMoviesInMyList: Movie[] = [];
+  finalContentRows.forEach(row => {
+    row.movies.forEach(movie => {
+      if (myList.includes(movie.id) && !movies.find(m => m.id === movie.id)) {
+        customMoviesInMyList.push(movie);
+      }
+    });
+  });
+  
+  const finalContentRows = allMyListMovies.length > 0 
+    ? [{ id: 'mylist', title: 'My List', movies: allMyListMovies }, ...updatedContentRows]
     : updatedContentRows;
 
   return (
