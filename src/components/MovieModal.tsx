@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Play, Plus, Heart } from 'lucide-react';
+import { X, Play, Plus, Heart, ThumbsUp } from 'lucide-react';
 import { Movie } from '../types';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 
