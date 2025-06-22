@@ -288,6 +288,7 @@ export const contentRows: ContentRow[] = [
         description: 'Expo.ai launches intelligent agents that automate tasks, talk to APIs, and make smart decisions inside workflows. This marks a leap in no-code AI automation, giving users hands-free control over complex systems. Think of them as your personalized AI co-pilots—fast, adaptive, and always on.',
         thumbnail: '/src/assets/11.jpg',
         backdrop: '/src/assets/11.jpg',
+        likes: 0,
       },
       {
         ...movies.find(movie => movie.genre.includes('Drama')) || movies[0],
@@ -296,6 +297,7 @@ export const contentRows: ContentRow[] = [
         description: 'A solo founder created and shipped a GPT-powered app using Expo.ai\'s tools—end to end—in just 14 days. The story blends inspiration and proof: with automation and prebuilt workflows, indie developers can move like startups. It\'s one of Expo.ai\'s strongest real-world showcases.',
         thumbnail: '/src/assets/12.jpg',
         backdrop: '/src/assets/12.jpg',
+        likes: 0,
       },
       {
         ...movies.find(movie => movie.genre.includes('Drama')) || movies[0],
@@ -304,6 +306,7 @@ export const contentRows: ContentRow[] = [
         description: 'The new Expo.ai Marketplace opens with a collection of 200+ plug-and-play AI workflows. From lead gen to summarization, users can explore and deploy powerful automations instantly. It\'s like discovering a toolkit for every problem, already solved.',
         thumbnail: '/src/assets/13.jpg',
         backdrop: '/src/assets/13.jpg',
+        likes: 0,
       },
       {
         ...movies.find(movie => movie.genre.includes('Drama')) || movies[0],
@@ -312,6 +315,7 @@ export const contentRows: ContentRow[] = [
         description: 'Expo.ai shares a beginner-friendly guide on building custom GPT agents—no code required. This how-to makes AI development accessible to everyone, with clear steps to design, configure, and launch your own GPT tool inside the platform. It\'s powerful, fast, and frictionless.',
         thumbnail: '/src/assets/14.jpg',
         backdrop: '/src/assets/14.jpg',
+        likes: 0,
       },
       {
         ...movies.find(movie => movie.genre.includes('Drama')) || movies[0],
@@ -320,6 +324,7 @@ export const contentRows: ContentRow[] = [
         description: 'What if your automations could learn, adapt, and evolve? Expo.ai unveils its forward-looking vision for self-improving agentic workflows. This piece isn\'t just strategy—it\'s a glimpse into how AI will reshape work itself, with Expo at the frontier.',
         thumbnail: '/src/assets/15.jpg',
         backdrop: '/src/assets/15.jpg',
+        likes: 0,
       },
       {
         ...movies.find(movie => movie.genre.includes('Drama')) || movies[0],
@@ -328,6 +333,7 @@ export const contentRows: ContentRow[] = [
         description: 'Expo.ai now lets you save and share custom workflow templates across your entire team. Whether you\'re onboarding new members, standardizing internal processes, or scaling operations, templates make collaboration faster and smarter. It\'s automation you can reuse—designed for teams that move fast.',
         thumbnail: '/src/assets/futuristic_workspace_with_a_glowing_green_digital_whiteboard_displaying_multiple_connected_flowchar_bc7d5ilnh4u7xjkdzjih_2.png',
         backdrop: '/src/assets/futuristic_workspace_with_a_glowing_green_digital_whiteboard_displaying_multiple_connected_flowchar_bc7d5ilnh4u7xjkdzjih_2.png',
+        likes: 0,
       },
       {
         ...movies.find(movie => movie.genre.includes('Drama')) || movies[0],
@@ -336,6 +342,7 @@ export const contentRows: ContentRow[] = [
         description: 'Expo.ai now connects directly to Gmail and Outlook, turning your inbox into a powerful automation hub. Automatically tag, reply, summarize, and trigger custom workflows based on the content of your emails. It\'s like giving your inbox an AI assistant—fast, smart, and always on.',
         thumbnail: '/src/assets/a_sleek_futuristic_email_inbox_interface_glowing_with_blue_neon_highlights_with_ai_automation_lines_xdspk5ut06lpmu44wane_9.png',
         backdrop: '/src/assets/a_sleek_futuristic_email_inbox_interface_glowing_with_blue_neon_highlights_with_ai_automation_lines_xdspk5ut06lpmu44wane_9.png',
+        likes: 0,
       },
       {
         ...movies.find(movie => movie.genre.includes('Drama')) || movies[0],
@@ -344,6 +351,7 @@ export const contentRows: ContentRow[] = [
         description: 'Expo.ai\'s dashboard just got a serious upgrade—with cleaner visuals, live logs, grouped nodes, and real-time flow previews. Whether you\'re building your first automation or managing complex agent chains, the new interface makes it easier to build, debug, and scale with confidence.',
         thumbnail: '/src/assets/futuristic_automation_dashboard_in_dark_mode_with_glowing_orange_and_amber_node_connections_grouped_xt3w9jrdh4xby65yuki2_41.png',
         backdrop: '/src/assets/futuristic_automation_dashboard_in_dark_mode_with_glowing_orange_and_amber_node_connections_grouped_xt3w9jrdh4xby65yuki2_41.png',
+        likes: 0,
       },
     ],
   },
@@ -358,6 +366,7 @@ export const contentRows: ContentRow[] = [
         description: 'Developers can now define and manage up to 100 virtual currencies per project within RevenueCat, such as tokens, coins, or credits. This feature allows for enriched app experience.',
         thumbnail: '/src/assets/a_high-resolution_image_of_a_modern_smartphone_held_in_a_users_hand_displaying_an_in-app_dashboard__gm9cby3s5d29uti3ozxh_1.png',
         backdrop: '/src/assets/a_high-resolution_image_of_a_modern_smartphone_held_in_a_users_hand_displaying_an_in-app_dashboard__gm9cby3s5d29uti3ozxh_1.png',
+        likes: 0,
       },
       {
         ...movies.find(movie => movie.genre.includes('Thriller')) || movies[0],
@@ -366,6 +375,7 @@ export const contentRows: ContentRow[] = [
         description: 'RevenueCat\'s SDKs for iOS and Android now support Offline Entitlements, enabling users to access premium content even when RevenueCat servers are temporarily unreachable. This feature ensures uninterrupted user experience by caching subscription status locally.',
         thumbnail: '/src/assets/ChatGPT Image 17 giu 2025, 12_26_12.png',
         backdrop: '/src/assets/ChatGPT Image 17 giu 2025, 12_26_12.png',
+        likes: 0,
       },
       {
         ...movies.find(movie => movie.genre.includes('Thriller')) || movies[0],
@@ -374,6 +384,7 @@ export const contentRows: ContentRow[] = [
         description: 'With RevenueCatUI, developers can design and update paywalls directly from the RevenueCat dashboard without requiring code changes or app resubmissions. This tool streamlines the process of managing in-app purchase interfaces across platforms.',
         thumbnail: '/src/assets/a_sleek_futuristic_ui_dashboard_labeled_revenuecatui_displayed_on_a_glowing_laptop_screen_the_inter_p4scvgqk8i0ochailout_0.png',
         backdrop: '/src/assets/a_sleek_futuristic_ui_dashboard_labeled_revenuecatui_displayed_on_a_glowing_laptop_screen_the_inter_p4scvgqk8i0ochailout_0.png',
+        likes: 0,
       },
       {
         ...movies.find(movie => movie.genre.includes('Thriller')) || movies[0],
@@ -382,6 +393,7 @@ export const contentRows: ContentRow[] = [
         description: 'RevenueCat has integrated with Paddle to offer a unified solution for managing subscriptions across web and mobile platforms. This partnership allows developers to handle payments, taxes, and compliance seamlessly, providing a consistent user experience.',
         thumbnail: '/src/assets/ChatGPT Image 17 giu 2025, 13_38_06.png',
         backdrop: '/src/assets/ChatGPT Image 17 giu 2025, 13_38_06.png',
+        likes: 0,
       },
       {
         ...movies.find(movie => movie.genre.includes('Thriller')) || movies[0],
@@ -390,6 +402,7 @@ export const contentRows: ContentRow[] = [
         description: 'RevenueCat has introduced automated handling of Apple refund requests by providing consumption data to Apple during the refund evaluation process. This approach has helped apps like Dipsea reduce refund rates by 36%, enhancing revenue retention.',
         thumbnail: '/src/assets/ChatGPT Image 17 giu 2025, 13_43_45.png',
         backdrop: '/src/assets/ChatGPT Image 17 giu 2025, 13_43_45.png',
+        likes: 0,
       },
       {
         ...movies.find(movie => movie.genre.includes('Thriller')) || movies[0],
@@ -398,6 +411,7 @@ export const contentRows: ContentRow[] = [
         description: 'Developers can now define and manage up to 100 virtual currencies per project within RevenueCat, such as tokens, coins, or credits. This feature allows for enriched app experience.',
         thumbnail: '/src/assets/a_high-resolution_image_of_a_modern_smartphone_held_in_a_users_hand_displaying_an_in-app_dashboard__gm9cby3s5d29uti3ozxh_1.png',
         backdrop: '/src/assets/a_high-resolution_image_of_a_modern_smartphone_held_in_a_users_hand_displaying_an_in-app_dashboard__gm9cby3s5d29uti3ozxh_1.png',
+        likes: 0,
       },
       {
         ...movies.find(movie => movie.genre.includes('Thriller')) || movies[0],
@@ -406,6 +420,7 @@ export const contentRows: ContentRow[] = [
         description: 'RevenueCat\'s SDKs for iOS and Android now support Offline Entitlements, enabling users to access premium content even when RevenueCat servers are temporarily unreachable. This feature ensures uninterrupted user experience by caching subscription status locally.',
         thumbnail: '/src/assets/ChatGPT Image 17 giu 2025, 12_26_12.png',
         backdrop: '/src/assets/ChatGPT Image 17 giu 2025, 12_26_12.png',
+        likes: 0,
       },
       {
         ...movies.find(movie => movie.genre.includes('Thriller')) || movies[0],
@@ -414,6 +429,7 @@ export const contentRows: ContentRow[] = [
         description: 'With RevenueCatUI, developers can design and update paywalls directly from the RevenueCat dashboard without requiring code changes or app resubmissions. This tool streamlines the process of managing in-app purchase interfaces across platforms.',
         thumbnail: '/src/assets/a_sleek_futuristic_ui_dashboard_labeled_revenuecatui_displayed_on_a_glowing_laptop_screen_the_inter_p4scvgqk8i0ochailout_0.png',
         backdrop: '/src/assets/a_sleek_futuristic_ui_dashboard_labeled_revenuecatui_displayed_on_a_glowing_laptop_screen_the_inter_p4scvgqk8i0ochailout_0.png',
+        likes: 0,
       },
     ],
   },
@@ -428,6 +444,7 @@ export const contentRows: ContentRow[] = [
         description: 'Tavus empowers real estate agents to send personalized video messages for each client, showcasing properties with tailored communication that boosts engagement and builds trust.',
         thumbnail: '/src/assets/1.jpg',
         backdrop: '/src/assets/1.jpg',
+        likes: 0,
       },
       {
         ...movies.find(movie => movie.genre.includes('Sci-Fi') || movie.genre.includes('Fantasy')) || movies[0],
@@ -436,6 +453,7 @@ export const contentRows: ContentRow[] = [
         description: 'Tavus offers the power to personalize videos at scale, but that raises important privacy questions. Striking the right balance is key: Tavus is committed to consent, data protection, and clear communication when a video is AI-generated. It\'s a strong example of how technology can be used responsibly without crossing ethical boundaries.',
         thumbnail: '/src/assets/2.jpg',
         backdrop: '/src/assets/2.jpg',
+        likes: 0,
       },
       {
         ...movies.find(movie => movie.genre.includes('Sci-Fi') || movie.genre.includes('Fantasy')) || movies[0],
@@ -444,6 +462,7 @@ export const contentRows: ContentRow[] = [
         description: 'Personalized videos created with Tavus have a stronger impact: they grab attention, speak directly to the viewer, and increase the chances of a response. Ideal for marketing and sales, this technology enhances campaign performance without adding workload—making communication feel more human and effective.',
         thumbnail: '/src/assets/3.jpg',
         backdrop: '/src/assets/3.jpg',
+        likes: 0,
       },
       {
         ...movies.find(movie => movie.genre.includes('Sci-Fi') || movie.genre.includes('Fantasy')) || movies[0],
@@ -452,6 +471,7 @@ export const contentRows: ContentRow[] = [
         description: 'Tavus uses artificial intelligence to create realistic, personalized videos from a single recording. The system replicates both face and voice, allowing hundreds of unique videos to be generated for different recipients. All of this is done transparently and with user consent, respecting privacy and promoting ethical use of voice synthesis and deepfake technologies.',
         thumbnail: '/src/assets/4.jpg',
         backdrop: '/src/assets/4.jpg',
+        likes: 0,
       },
       {
         ...movies.find(movie => movie.genre.includes('Sci-Fi') || movie.genre.includes('Fantasy')) || movies[0],
@@ -460,6 +480,7 @@ export const contentRows: ContentRow[] = [
         description: 'Marketing agencies use Tavus to create hundreds of branded videos for their clients, quickly and at scale. One single recording can generate personalized content that integrates into funnels, emails, and automations. Tavus becomes a key asset for scaling outreach without scaling production costs.',
         thumbnail: '/src/assets/5.jpg',
         backdrop: '/src/assets/5.jpg',
+        likes: 0,
       },
       {
         ...movies.find(movie => movie.genre.includes('Sci-Fi') || movie.genre.includes('Fantasy')) || movies[0],
@@ -468,6 +489,7 @@ export const contentRows: ContentRow[] = [
         description: 'Tavus helps companies personalize onboarding videos at scale. With one recording, you can generate custom welcomes for each new hire—saving time while making every employee feel valued from day one.',
         thumbnail: '/src/assets/ai-generated_avatar_delivering_a_training_video_to_diverse_new_employees_screens_showing_unique_nam_u8p94293u60c75ptufoo_6.png',
         backdrop: '/src/assets/ai-generated_avatar_delivering_a_training_video_to_diverse_new_employees_screens_showing_unique_nam_u8p94293u60c75ptufoo_6.png',
+        likes: 0,
       },
       {
         ...movies.find(movie => movie.genre.includes('Sci-Fi') || movie.genre.includes('Fantasy')) || movies[0],
@@ -476,6 +498,7 @@ export const contentRows: ContentRow[] = [
         description: 'Connect Tavus to n8n to automate your video workflows. From form submissions to email triggers, you can generate and send personalized videos automatically, making your funnel smarter and more efficient.',
         thumbnail: '/src/assets/digital_dashboard_with_drag-and-drop_funnel_builder_interface_tavus_video_module_at_the_top_branchi_jfsdg8hx9u00gjcifcyt_3.png',
         backdrop: '/src/assets/digital_dashboard_with_drag-and-drop_funnel_builder_interface_tavus_video_module_at_the_top_branchi_jfsdg8hx9u00gjcifcyt_3.png',
+        likes: 0,
       },
       {
         ...movies.find(movie => movie.genre.includes('Sci-Fi') || movie.genre.includes('Fantasy')) || movies[0],
@@ -484,6 +507,7 @@ export const contentRows: ContentRow[] = [
         description: 'Tavus lets sales teams send one-to-one videos without recording each one. Personalize at scale, boost response rates, and make every outreach feel human—using just one video and the power of AI.',
         thumbnail: '/src/assets/split_screen-_left_side_showing_a_salesperson_recording_a_single_video_right_side_showing_that_vide_9vuah1tktgqafjeogi77_1.png',
         backdrop: '/src/assets/split_screen-_left_side_showing_a_salesperson_recording_a_single_video_right_side_showing_that_vide_9vuah1tktgqafjeogi77_1.png',
+        likes: 0,
       },
     ],
   },
